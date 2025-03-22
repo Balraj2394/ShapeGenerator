@@ -1,0 +1,109 @@
+ body{
+    margin: 0;
+    text-align: center;
+}
+
+#input{
+    background-image: url(https://cdn.pixabay.com/photo/2025/02/28/20/02/ai-generated-9438277_1280.jpg);
+     background-size: cover; 
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 50vh;
+    color: white;
+}
+#color{
+    width: 100px;
+    height: 38px;
+    padding: 2px;
+}
+h1{
+    font-size: 4em;
+}
+p{
+    font-size: 2em;
+    margin: 10px;
+}
+#number{
+    width: 150px;
+    height: 40px;
+    font-size: 2em;
+    padding: 0px 8px;
+}
+button{
+    width: 120px;
+    height: 35px;
+    font-size: 1.5em;
+    background-color: lightblue;
+
+}
+button:hover{
+    background-color: blue;
+    color: white;
+}
+.circle{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    color: white;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin: 10px;
+    text-align: center;
+    background-color: red;
+}
+.square{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    color: white;
+    height: 50px;
+    width: 50px;margin: 10px;
+    text-align: center;
+    background-color: yellow;
+
+}
+.rectangle{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    color: white;
+    height: 50px;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    background-color: black;
+}
+#box{
+    display: flex;
+    flex-wrap: wrap;
+}
+.radio{
+    padding: 20px;
+}
+.triangle{
+    width: 0;
+    height: 0;
+    border-left: 30px solid white;
+    border-right: 30px solid white;
+    border-bottom: 50px solid blue;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: 10px;
+    /* color: white;
+    background-color: blue; */
+
+}
